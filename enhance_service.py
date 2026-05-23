@@ -25,7 +25,7 @@ from fastapi import FastAPI, File, UploadFile, HTTPException, Query
 from fastapi.responses import Response
 from PIL import Image
 import cv2
-
+print("IMPORT TEST: starting service")
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("enhance")
 
