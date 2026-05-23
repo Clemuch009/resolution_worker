@@ -1,3 +1,8 @@
+print("STARTING IMPORT")
+import numpy as np
+print("NUMPY OK")
+import cv2
+print("CV2 OK")
 """
 MaePixel — Input Enhancement Service v2
 FastAPI service for pre-processing user uploads before MaePixel blend.
